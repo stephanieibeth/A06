@@ -1,1 +1,54 @@
+/* Default */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0 1rem;
+}
 
+/* Heading sizes and color */
+h1 { font-size: 150%; }
+h2 { font-size: 130%; color: #800000; }
+h3 { font-size: 105%; }
+
+/* Links under the speaker photos turn italic */
+a:hover,
+a:focus {
+    font-style: italic;
+    color: #800000;
+}
+
+/* Header layout */
+header {
+    padding: 1rem 0;
+}
+header img {
+    float: left;
+    height: 80px;
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3)); /* 75th logo shadow */
+}
+header h2 {
+    text-indent: 30px;          /* indent */
+    margin: 0.25rem 0 0;
+}
+header h3 {
+    text-indent: 30px;
+    font-style: italic;
+    margin: 0.25rem 0 0;
+}
+
+/* Clear the floated logo */
+main {
+    clear: left;
+    padding-bottom: 1rem;
+}
+
+/* “75” larger */
+.large {
+    font-size: 125%;
+}
+
+/* Center the copyright line */
+footer p {
+    text-align: center;
+    padding: 1rem 0;
+}
